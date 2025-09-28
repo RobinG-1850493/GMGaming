@@ -4,9 +4,15 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/HomePC/Desktop/MonoGameProjects/mgProject_1/Content/Images/atlas.png</File>
+    <File>c:/Users/HomePC/Desktop/GMGaming/MonoGameProjects/mgProject_1/Content/Images/atlas.png</File>
+    <File>c:/Users/HomePC/Desktop/GMGaming/MonoGameProjects/mgProject_1/Content/Images/base_character.png</File>
+    <File>c:/Users/HomePC/Desktop/GMGaming/MonoGameProjects/mgProject_1/Content/Images/poison-jelly.png</File>
+    <File>c:/Users/HomePC/Desktop/GMGaming/MonoGameProjects/mgProject_1/Content/Images/wooden_sword.png</File>
   </SourceFiles>
   <DestFiles>
+    <File>Images/witch.png</File>
+    <File>Images/female_base.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

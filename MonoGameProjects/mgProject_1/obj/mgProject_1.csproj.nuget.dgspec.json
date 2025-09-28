@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj": {}
+    "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {
+    "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
+        "projectUniqueName": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
         "projectName": "GooseLib",
-        "projectPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
+        "projectPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
         "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\obj\\",
+        "outputPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj": {
+    "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj",
+        "projectUniqueName": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj",
         "projectName": "mgProject_1",
-        "projectPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj",
+        "projectPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\mgProject_1\\mgProject_1.csproj",
         "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\mgProject_1\\obj\\",
+        "outputPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\mgProject_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -106,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {
-                "projectPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj"
+              "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {
+                "projectPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj"
               }
             }
           }

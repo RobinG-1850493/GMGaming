@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+  <Texture>Images/poison-jelly</Texture>
+  <Regions>
+    <Region name="jelly1" x="0" y="0" width="16" height="16" />
+    <Region name="jelly2" x="16" y="0" width="16" height="16" />
+    <Region name="jelly3" x="32" y="0" width="16" height="16" />
+    <Region name="jelly4" x="48" y="0" width="16" height="16" />
+
+  </Regions>
+  <Animations>
+    <Animation name="jelly" delay="300">
+      <Frame region="jelly1" />
+      <Frame region="jelly2" />
+      <Frame region="jelly3" />
+      <Frame region="jelly4" />
+    </Animation>
+  </Animations>
+</TextureAtlas>

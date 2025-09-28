@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+  <Texture>Images/wooden-sword</Texture>
+  <Regions>
+    <Region name="sword1" x="0" y="0" width="16" height="16" />
+  </Regions>
+</TextureAtlas>

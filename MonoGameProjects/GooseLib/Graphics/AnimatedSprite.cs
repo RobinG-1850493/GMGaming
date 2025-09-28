@@ -8,6 +8,7 @@ public class AnimatedSprite : Sprite
     private int _currentFrame;
     private TimeSpan _elapsedTime;
     private Animation _animation;
+    private Vector2 _position;
 
     public Animation Animation
     {
@@ -32,6 +33,35 @@ public class AnimatedSprite : Sprite
         return Animation;
     }
 
+    public float getX()
+    {
+        return _position.X;
+    }
+
+    public void setX(float x)
+    {
+        _position.X = x;
+    }
+
+    public float getY()
+    {
+        return _position.Y;
+    }
+
+    public void setY(float y)
+    {
+        _position.Y = y;
+    }
+
+    public Vector2 getPosition()
+    {
+        return _position;
+    }
+
+    public void setPosition(Vector2 position)
+    {
+        _position = position;
+    }
 
 
     public AnimatedSprite() { }

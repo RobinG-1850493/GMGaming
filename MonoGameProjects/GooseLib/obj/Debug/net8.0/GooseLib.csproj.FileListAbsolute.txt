@@ -10,3 +10,16 @@ c:\Users\HomePC\Desktop\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.dll
 c:\Users\HomePC\Desktop\MonoGameProjects\GooseLib\obj\Debug\net8.0\refint\GooseLib.dll
 c:\Users\HomePC\Desktop\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.pdb
 c:\Users\HomePC\Desktop\MonoGameProjects\GooseLib\obj\Debug\net8.0\ref\GooseLib.dll
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\bin\Debug\net8.0\GooseLib.deps.json
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\bin\Debug\net8.0\GooseLib.dll
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\bin\Debug\net8.0\GooseLib.pdb
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.csproj.AssemblyReference.cache
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.AssemblyInfoInputs.cache
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.AssemblyInfo.cs
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.csproj.CoreCompileInputs.cache
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.sourcelink.json
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.dll
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\refint\GooseLib.dll
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\GooseLib.pdb
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\GooseLib\obj\Debug\net8.0\ref\GooseLib.dll

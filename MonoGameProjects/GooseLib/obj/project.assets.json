@@ -273,11 +273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
+      "projectUniqueName": "C:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
       "projectName": "GooseLib",
-      "projectPath": "C:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
+      "projectPath": "C:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
       "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\obj\\",
+      "outputPath": "C:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config"

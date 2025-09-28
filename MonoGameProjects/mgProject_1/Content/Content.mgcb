@@ -14,7 +14,7 @@
 #---------------------------------- Content ---------------------------------#
 
 #begin Images/atlas-def.xml
-/copy:Images/atlas-def.xml
+/copy:Images/atlas-def.xml;Images/witch-def.xml
 
 #begin Images/atlas.png
 /importer:TextureImporter
@@ -26,8 +26,53 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Images/atlas.png
+/build:Images/atlas.png;Images/witch.png
+
+#begin Images/base_character.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/base_character.png;Images/female_base.png
+
+#begin Images/female-base-atlas.xml
+/copy:Images/female-base-atlas.xml
+
+#begin Images/jelly-def.xml.xml
+/copy:Images/jelly-def.xml.xml;Images/jelly-def.xml
+
+#begin Images/poison-jelly.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/poison-jelly.png
+
+#begin Images/sword-def.xml
+/copy:Images/sword-def.xml
 
 #begin Images/tilemap-definition.xml
 /copy:Images/tilemap-definition.xml
+
+#begin Images/wooden_sword.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/wooden_sword.png
 

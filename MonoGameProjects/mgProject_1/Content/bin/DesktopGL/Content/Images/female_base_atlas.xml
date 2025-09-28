@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+  <Texture>Images/female_base</Texture>
+  <Regions>
+    <Region name="female_base_front_walk1" x="0" y="0" width="16" height="32" />
+    <Region name="female_base_front_walk2" x="16" y="0" width="16" height="32" />
+    <Region name="female_base_front_walk3" x="32" y="0" width="16" height="32" />
+    <Region name="female_base_front_walk4" x="48" y="0" width="16" height="32" />
+
+    <Region name="female_base_side_walk1" x="0" y="32" width="16" height="32" />
+    <Region name="female_base_side_walk2" x="16" y="32" width="16" height="32" />
+    <Region name="female_base_side_walk3" x="32" y="32" width="16" height="32" />
+    <Region name="female_base_side_walk4" x="48" y="32" width="16" height="32" />
+
+    <Region name="female_base_back_walk1" x="0" y="64" width="16" height="32" />
+    <Region name="female_base_back_walk2" x="16" y="64" width="16" height="32" />
+    <Region name="female_base_back_walk3" x="32" y="64" width="16" height="32" />
+    <Region name="female_base_back_walk4" x="48" y="64" width="16" height="32" />
+
+    <Region name="female_base_front_run1" x="0" y="96" width="16" height="32" />
+    <Region name="female_base_front_run2" x="16" y="96" width="16" height="32" />
+    <Region name="female_base_front_run3" x="32" y="96" width="16" height="32" />
+    <Region name="female_base_front_run4" x="48" y="96" width="16" height="32" />
+    <Region name="female_base_front_run5" x="64" y="96" width="16" height="32" />
+    <Region name="female_base_front_run6" x="80" y="96" width="16" height="32" />
+    <Region name="female_base_front_run7" x="96" y="96" width="16" height="32" />
+    <Region name="female_base_front_run8" x="112" y="96" width="16" height="32" />
+
+    <Region name="female_base_side_run1" x="0" y="128" width="16" height="32" />
+    <Region name="female_base_side_run2" x="16" y="128" width="16" height="32" />
+    <Region name="female_base_side_run3" x="32" y="128" width="16" height="32" />
+    <Region name="female_base_side_run4" x="48" y="128" width="16" height="32" />
+    <Region name="female_base_side_run5" x="64" y="128" width="16" height="32" />
+    <Region name="female_base_side_run6" x="80" y="128" width="16" height="32" />
+
+    <Region name="female_base_back_run1" x="0" y="160" width="16" height="32" />
+    <Region name="female_base_back_run2" x="16" y="160" width="16" height="32" />
+    <Region name="female_base_back_run3" x="32" y="160" width="16" height="32" />
+    <Region name="female_base_back_run4" x="48" y="160" width="16" height="32" />
+    <Region name="female_base_back_run5" x="64" y="160" width="16" height="32" />
+    <Region name="female_base_back_run6" x="80" y="160" width="16" height="32" />
+    <Region name="female_base_back_run7" x="96" y="160" width="16" height="32" />
+    <Region name="female_base_back_run8" x="112" y="160" width="16" height="32" />
+
+    <Region name="female_base_front_idle1" x="0" y="192" width="16" height="32" />
+    <Region name="female_base_front_idle2" x="16" y="192" width="16" height="32" />
+
+    <Region name="female_base_side_idle1" x="0" y="224" width="16" height="32" />
+    <Region name="female_base_side_idle2" x="16" y="224" width="16" height="32" />
+
+    <Region name="female_base_back_idle1" x="0" y="256" width="16" height="32" />
+    <Region name="female_base_back_idle2" x="16" y="256" width="16" height="32" />
+
+    <Region name="female_base_attack1" x="0" y="288" width="16" height="32" />
+    <Region name="female_base_attack2" x="16" y="288" width="16" height="32" />
+    <Region name="female_base_attack3" x="32" y="288" width="16" height="32" />
+    <Region name="female_base_attack4" x="48" y="288" width="16" height="32" />
+    <Region name="female_base_attack5" x="64" y="288" width="16" height="32" />
+    <Region name="female_base_attack6" x="80" y="288" width="16" height="32" />
+  </Regions>
+  <Animations>
+    <Animations>
+      <Animation name="female_base_front_walk" delay="100">
+        <Frame region="female_base_front_walk1" />
+        <Frame region="female_base_front_walk2" />
+        <Frame region="female_base_front_walk3" />
+        <Frame region="female_base_front_walk4" />
+      </Animation>
+      <Animation name="female_base_side_walk" delay="100">
+        <Frame region="female_base_side_walk1" />
+        <Frame region="female_base_side_walk2" />
+        <Frame region="female_base_side_walk3" />
+        <Frame region="female_base_side_walk4" />
+      </Animation>
+      <Animation name="female_base_back_walk" delay="100">
+        <Frame region="female_base_back_walk1" />
+        <Frame region="female_base_back_walk2" />
+        <Frame region="female_base_back_walk3" />
+        <Frame region="female_base_back_walk4" />
+      </Animation>
+      <Animation name="female_base_front_run" delay="100">
+        <Frame region="female_base_front_run1" />
+        <Frame region="female_base_front_run2" />
+        <Frame region="female_base_front_run3" />
+        <Frame region="female_base_front_run4" />
+        <Frame region="female_base_front_run5" />
+        <Frame region="female_base_front_run6" />
+        <Frame region="female_base_front_run7" />
+        <Frame region="female_base_front_run8" />
+      </Animation>
+      <Animation name="female_base_side_run" delay="100">
+        <Frame region="female_base_side_run1" />
+        <Frame region="female_base_side_run2" />
+        <Frame region="female_base_side_run3" />
+        <Frame region="female_base_side_run4" />
+        <Frame region="female_base_side_run5" />
+        <Frame region="female_base_side_run6" />
+      </Animation>
+      <Animation name="female_base_back_run" delay="100">
+        <Frame region="female_base_back_run1" />
+        <Frame region="female_base_back_run2" />
+        <Frame region="female_base_back_run3" />
+        <Frame region="female_base_back_run4" />
+        <Frame region="female_base_back_run5" />
+        <Frame region="female_base_back_run6" />
+        <Frame region="female_base_back_run7" />
+        <Frame region="female_base_back_run8" />
+      </Animation>
+      <Animation name="female_base_front_idle" delay="300">
+        <Frame region="female_base_front_idle1" />
+        <Frame region="female_base_front_idle2" />
+      </Animation>
+      <Animation name="female_base_side_idle" delay="300">
+        <Frame region="female_base_side_idle1" />
+        <Frame region="female_base_side_idle2" />
+      </Animation>
+      <Animation name="female_base_back_idle" delay="300">
+        <Frame region="female_base_back_idle1" />
+        <Frame region="female_base_back_idle2" />
+      </Animation>
+      <Animation name="female_base_attack" delay="80">
+        <Frame region="female_base_attack1" />
+        <Frame region="female_base_attack2" />
+        <Frame region="female_base_attack3" />
+        <Frame region="female_base_attack4" />
+        <Frame region="female_base_attack5" />
+        <Frame region="female_base_attack6" />
+      </Animation>
+    </Animations>
+  </Animations>
+</TextureAtlas>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {}
+    "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {
+    "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
+        "projectUniqueName": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
         "projectName": "GooseLib",
-        "projectPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
+        "projectPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\GooseLib.csproj",
         "packagesPath": "C:\\Users\\HomePC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HomePC\\Desktop\\MonoGameProjects\\GooseLib\\obj\\",
+        "outputPath": "c:\\Users\\HomePC\\Desktop\\GMGaming\\MonoGameProjects\\GooseLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HomePC\\AppData\\Roaming\\NuGet\\NuGet.Config"
