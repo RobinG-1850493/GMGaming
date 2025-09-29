@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Penumbra;
 
 namespace GooseLib;
 
@@ -11,6 +12,7 @@ public class Core : Game
 {
     internal static Core s_instance;
     public static Core Instance => s_instance;
+    public static PenumbraComponent penumbra { get; private set; }
     public static GraphicsDeviceManager Graphics { get; private set; }
     public static new GraphicsDevice GraphicsDevice { get; private set; }
     public static SpriteBatch SpriteBatch { get; private set; }
@@ -41,6 +43,8 @@ public class Core : Game
 
         Content.RootDirectory = "Content";
 
+        penumbra = new PenumbraComponent(this);
+
         IsMouseVisible = true;
         ExitOnEscape = true;
     }
@@ -51,6 +55,7 @@ public class Core : Game
         GraphicsDevice = base.GraphicsDevice;
         SpriteBatch = new SpriteBatch(GraphicsDevice);
         Input = new InputManager();
+        penumbra.Initialize();
     }
 
     protected override void Update(GameTime gameTime)

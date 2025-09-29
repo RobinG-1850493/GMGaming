@@ -92,6 +92,65 @@
           }
         }
       },
+      "MonoGame.Penumbra.DesktopGL/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Content.Builder.Task": "3.8.1.303",
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
+        "compile": {
+          "lib/net6.0/MonoGame.Penumbra.DesktopGL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Penumbra.DesktopGL.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraHull.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraLight.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraShadow.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraTexture.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraHull.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraLight.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraShadow.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraTexture.xnb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "NVorbis/0.10.4": {
         "type": "package",
         "dependencies": {
@@ -130,6 +189,9 @@
       "GooseLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MonoGame.Penumbra.DesktopGL": "3.0.0"
+        },
         "compile": {
           "bin/placeholder/GooseLib.dll": {}
         },
@@ -271,6 +333,35 @@
         "runtimes/win-x64/native/SDL2.dll"
       ]
     },
+    "MonoGame.Penumbra.DesktopGL/3.0.0": {
+      "sha512": "QmnlTWpM5HpHayLFABDpx9wlqhabD19Cr51XeuI/PUKZck2+u5lEaW8HE4UCHYt0ENtWTSJdFghAwDule7VUMg==",
+      "type": "package",
+      "path": "monogame.penumbra.desktopgl/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/bin/DesktopGL/Content.DesktopGL/PenumbraHull.xnb",
+        "content/Content/bin/DesktopGL/Content.DesktopGL/PenumbraLight.xnb",
+        "content/Content/bin/DesktopGL/Content.DesktopGL/PenumbraShadow.xnb",
+        "content/Content/bin/DesktopGL/Content.DesktopGL/PenumbraTexture.xnb",
+        "content/Content/bin/DesktopGL/Content.WindowsDX/PenumbraHull.xnb",
+        "content/Content/bin/DesktopGL/Content.WindowsDX/PenumbraLight.xnb",
+        "content/Content/bin/DesktopGL/Content.WindowsDX/PenumbraShadow.xnb",
+        "content/Content/bin/DesktopGL/Content.WindowsDX/PenumbraTexture.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraHull.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraLight.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraShadow.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.DesktopGL/PenumbraTexture.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraHull.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraLight.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraShadow.xnb",
+        "contentFiles/any/net6.0/Content/bin/DesktopGL/Content.WindowsDX/PenumbraTexture.xnb",
+        "lib/net6.0/MonoGame.Penumbra.DesktopGL.dll",
+        "lib/net6.0/MonoGame.Penumbra.DesktopGL.xml",
+        "monogame.penumbra.desktopgl.3.0.0.nupkg.sha512",
+        "monogame.penumbra.desktopgl.nuspec"
+      ]
+    },
     "NVorbis/0.10.4": {
       "sha512": "WYnil3DhQHzjCY0dM9I2B3r1vWip90AOuQd25KE4NrjPQBg0tBJFluRLm5YPnO5ZLDmwrfosY8jCQGQRmWI/Pg==",
       "type": "package",
@@ -362,7 +453,8 @@
     "net8.0": [
       "GooseLib >= 1.0.0",
       "MonoGame.Content.Builder.Task >= 3.8.*",
-      "MonoGame.Framework.DesktopGL >= 3.8.*"
+      "MonoGame.Framework.DesktopGL >= 3.8.*",
+      "MonoGame.Penumbra.DesktopGL >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -419,6 +511,10 @@
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
             "version": "[3.8.*, )"
+          },
+          "MonoGame.Penumbra.DesktopGL": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           }
         },
         "imports": [

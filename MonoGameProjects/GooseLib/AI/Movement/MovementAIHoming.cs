@@ -12,13 +12,13 @@ public class MovementAIHoming : MovementAI
         var rand = new System.Random();
         float angle = (float)(rand.NextDouble() * 2 * Math.PI);
         var randomDirection = new Microsoft.Xna.Framework.Vector2((float)Math.Cos(angle), (float)Math.Sin(angle));
-        subject.setPosition(subject.getPosition() + randomDirection * 4.0f);
-
+        subject.setPosition(subject.getPosition() + randomDirection * 0.5f); // much less random movement
 
         if (target == null) return;
 
         var direction = target.getPosition() - subject.getPosition();
-        direction += randomDirection * 0.5f; // Adding some randomness to the direction
+        // Only a slight random wobble added to homing direction
+        direction += randomDirection * 0.1f;
         if (direction.Length() > 0)
         {
             direction.Normalize();

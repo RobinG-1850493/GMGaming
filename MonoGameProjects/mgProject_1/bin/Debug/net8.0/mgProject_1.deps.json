@@ -10,7 +10,8 @@
         "dependencies": {
           "GooseLib": "1.0.0",
           "MonoGame.Content.Builder.Task": "3.8.4",
-          "MonoGame.Framework.DesktopGL": "3.8.4"
+          "MonoGame.Framework.DesktopGL": "3.8.4",
+          "MonoGame.Penumbra.DesktopGL": "3.0.0"
         },
         "runtime": {
           "mgProject_1.dll": {}
@@ -103,6 +104,18 @@
           }
         }
       },
+      "MonoGame.Penumbra.DesktopGL/3.0.0": {
+        "dependencies": {
+          "MonoGame.Content.Builder.Task": "3.8.4",
+          "MonoGame.Framework.DesktopGL": "3.8.4"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Penumbra.DesktopGL.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "NVorbis/0.10.4": {
         "dependencies": {
           "System.Memory": "4.5.3",
@@ -118,6 +131,9 @@
       "System.Memory/4.5.3": {},
       "System.ValueTuple/4.5.0": {},
       "GooseLib/1.0.0": {
+        "dependencies": {
+          "MonoGame.Penumbra.DesktopGL": "3.0.0"
+        },
         "runtime": {
           "GooseLib.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -160,6 +176,13 @@
       "sha512": "sha512-T4E2ppGlSTC2L9US1rxtdg3qTbarRzNId31xZoumUW9cf9Nq8nRQPMu9GzvZGrhfSySf0+UWPEj1rlicps+P/w==",
       "path": "monogame.library.sdl/2.32.2.1",
       "hashPath": "monogame.library.sdl.2.32.2.1.nupkg.sha512"
+    },
+    "MonoGame.Penumbra.DesktopGL/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QmnlTWpM5HpHayLFABDpx9wlqhabD19Cr51XeuI/PUKZck2+u5lEaW8HE4UCHYt0ENtWTSJdFghAwDule7VUMg==",
+      "path": "monogame.penumbra.desktopgl/3.0.0",
+      "hashPath": "monogame.penumbra.desktopgl.3.0.0.nupkg.sha512"
     },
     "NVorbis/0.10.4": {
       "type": "package",

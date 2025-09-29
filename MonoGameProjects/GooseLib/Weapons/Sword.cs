@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GooseLib.Graphics;
 using GooseLib.Utils;
 using Microsoft.Xna.Framework.Input;
@@ -11,9 +12,9 @@ namespace GooseLib.Weapons;
 public class Sword : Weapon
 {
     private bool _isSwinging = false;
+    private HashSet<object> _hitEnemiesThisSwing = new HashSet<object>();
     private double _swingTimer = 0;
     private const double SWING_DURATION = 500; // in ms
-    private Rectangle bounds;
     private Direction _direction;
 
     private AnimatedSprite User;
@@ -32,6 +33,7 @@ public class Sword : Weapon
         {
             _isSwinging = true;
             _swingTimer = SWING_DURATION;
+            _hitEnemiesThisSwing.Clear();
         }
     }
 
@@ -43,6 +45,7 @@ public class Sword : Weapon
             if (_swingTimer <= 0)
             {
                 _isSwinging = false;
+                _hitEnemiesThisSwing = new HashSet<object>();
             }
         }
     }
@@ -61,24 +64,24 @@ public class Sword : Weapon
         }
     }
 
-public Rectangle GetHitbox()
-{
-    if (!_isSwinging)
-        return Rectangle.Empty;
+    public Rectangle GetHitbox()
+    {
+        if (!_isSwinging)
+            return Rectangle.Empty;
 
-    float progress = (float)(1.0 - _swingTimer / SWING_DURATION);
-    Vector2 swordPos = GetSwordSwingPosition(User, _direction, progress);
-    Vector2 origin = (_direction == Direction.Left) ? new Vector2(12, 12) : new Vector2(3, 12);
-    int width = Texture.Width;
-    int height = Texture.Height;
+        float progress = (float)(1.0 - _swingTimer / SWING_DURATION);
+        Vector2 swordPos = GetSwordSwingPosition(User, _direction, progress);
+        Vector2 origin = (_direction == Direction.Left) ? new Vector2(12, 12) : new Vector2(3, 12);
+        int width = Texture.Width;
+        int height = Texture.Height;
 
-    return new Rectangle(
-        (int)(swordPos.X - origin.X * User.Scale.X),
-        (int)(swordPos.Y - origin.Y * User.Scale.Y),
-        (int)(width * User.Scale.X),
-        (int)(height * User.Scale.Y)
-    );
-}
+        return new Rectangle(
+            (int)(swordPos.X - origin.X * User.Scale.X),
+            (int)(swordPos.Y - origin.Y * User.Scale.Y),
+            (int)(width * User.Scale.X),
+            (int)(height * User.Scale.Y)
+        );
+    }
 
 
     private Vector2 GetSwordSwingPosition(AnimatedSprite player, Direction direction, float progress)
@@ -104,14 +107,16 @@ public Rectangle GetHitbox()
             return MathHelper.Lerp(startAngle, endAngle, progress);
         }
     }
-
-    public Rectangle GetBounds()
-    {
-        return bounds;
-    }
-
     public bool IsSwinging()
     {
         return _isSwinging;
+    }
+
+    public bool canHitEntity(object target)
+    {
+        if (_hitEnemiesThisSwing.Contains(target))
+            return false;
+        _hitEnemiesThisSwing.Add(target);
+        return true;
     }
 }

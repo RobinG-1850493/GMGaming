@@ -48,6 +48,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.8.*, )"
+            },
+            "MonoGame.Penumbra.DesktopGL": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

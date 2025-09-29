@@ -80,3 +80,4 @@ c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\mgProject_1\bin\Debug\net8.0\C
 c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\mgProject_1\bin\Debug\net8.0\Content\Images\female-base-atlas.xml
 c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\mgProject_1\bin\Debug\net8.0\Content\Images\sword-def.xml
 c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\mgProject_1\bin\Debug\net8.0\Content\Images\wooden_sword.xnb
+c:\Users\HomePC\Desktop\GMGaming\MonoGameProjects\mgProject_1\bin\Debug\net8.0\MonoGame.Penumbra.DesktopGL.dll
